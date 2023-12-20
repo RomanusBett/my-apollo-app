@@ -6,7 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const client = new ApolloClient({
-  uri: 'https://my-apollo-api.vercel.app/api/graphql',
+  uri: '/graphql',
   cache: new InMemoryCache()
 })
 
